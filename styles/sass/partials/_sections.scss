@@ -1,13 +1,13 @@
 @use "variables" as *;
 
-.category-gallery {
+.categoryGallery {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
 
-    .item {
+    .items {
         flex-basis: 40%;
         padding: 45px;
         margin: 50px 25px 25px;
@@ -30,19 +30,19 @@
         }
     }
 
-    .item-one {
+    .itemOne {
         background-color: $quinary;
     }
 
-    .item-two {
+    .itemTwo {
         background-color: $secondary;
     }
 
-    .item-three {
+    .itemThree {
         background-color: $tertiary;
     }
 
-    .item-four {
+    .itemFour {
         background-color: $quaternary;
     }
 }
